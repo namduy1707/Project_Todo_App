@@ -12,6 +12,7 @@ function App() {
   useEffect(() => {
     getTodos()
       .then((res) => {
+        console.log(res);
         setTodos(res.data.slice(0, 10));
       })
       .catch((err) => {
