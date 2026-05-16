@@ -18,7 +18,7 @@ Project này được thiết kế để học:
 ```
 todo-app/
 ├── public/
-│   └── favicon.svg          # Icon của ứng dụng
+│
 ├── src/
 │   ├── components/          # Các component React
 │   │   ├── TodoForm.jsx     # Form thêm todo mới
